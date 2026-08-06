@@ -74,6 +74,7 @@ description: "The Young Lab engineers organisms using synthetic biology and meta
   <li><a href="https://www.addgene.org/browse/article/28252864/">Xd MoClo</a></li>
   <li>Dh MoClo</li>
 </ul>
+{% include addgene-widget.html %}
 </div>
 
 <div class="research-section" id="software-projects">

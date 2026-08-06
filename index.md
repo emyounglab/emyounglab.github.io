@@ -21,3 +21,5 @@ permalink: /
 <p><a href="{{ '/publications/' | relative_url }}">All publications →</a></p>
 
 <hr class="palette-rule"/>
+
+{% include addgene-widget.html %}

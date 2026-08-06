@@ -14,3 +14,6 @@ collections:
 
 # GitHub Pages safe default (no custom plugins)
 plugins: []
+
+exclude:
+  - CLAUDE.md
