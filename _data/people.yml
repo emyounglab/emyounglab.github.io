@@ -44,10 +44,6 @@ students:
     role: "PhD Student"
     interests: "synthetic biology part collections, metabolic engineering, part transferability"
     
-  - name: "Zekun Li"
-    role: "PhD Student"
-    interests: "nonconventional yeast engineering, biofoundries, automation"
-    
   - name: "Zoe Horton"
     role: "PhD Student"
     interests: "incorporating cell engineering into cell culture"
@@ -55,10 +51,6 @@ students:
   - name: "Nicole Petersen"
     role: "PhD Student"
     interests: "nonconventional yeast engineering, natural products, fungal systems"
-    
-  - name: "Ruiyi Wang"
-    role: "PhD Student"
-    interests: "yeast metabolic engineering, bioprocessing"
     
   - name: "Taylor Fiore"
     role: "PhD Student"
@@ -77,7 +69,7 @@ alumni:
     current: "Praj Industries"
     
   - name: "Dr. Leelakrishna Bankapalli"
-    role: "PhD"
+    role: "Postdoc"
     current: "Bycus Therapeutics"
     
   - name: "Dr. Joseph H. Collins"
@@ -95,6 +87,13 @@ alumni:
   - name: "Dr. Sarah J. Weintraub"
     role: "PhD"
     current: "Postdoc, Carnegie Mellon University"
+    
+  - name: "Dr. Zekun Li"
+    role: "PhD"
+    
+  - name: "Ruiyi Wang"
+    role: "MS Student"
+    current: "PhD Student, UMass-Lowell"
     
   - name: "Jaclyn Thompson"
     role: "Technician"

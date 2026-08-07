@@ -2,8 +2,6 @@
   <div class="person-top">
     {% if include.person.photo %}
       <img class="avatar" src="{{ include.person.photo | relative_url }}" alt="{{ include.person.name | escape }}">
-    {% else %}
-      <div class="avatar placeholder" aria-hidden="true"></div>
     {% endif %}
 
     <div>
