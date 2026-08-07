@@ -13,12 +13,16 @@
       {% if include.pub.pdf %} · <a href="{{ include.pub.pdf | relative_url }}">PDF</a>{% endif %}
       {% if include.pub.preprint_url %} · <a href="{{ include.pub.preprint_url }}" target="_blank" rel="noreferrer">preprint</a>{% endif %}
     </div>
-    {% if include.pub.tags %}
     <div class="pub-tags">
-      {% for tag in include.pub.tags %}
-        <span class="tag">{{ tag }}</span>
-      {% endfor %}
+      {% case include.pub.type %}
+      {% when "journal" %}<span class="tag type-journal">Journal</span>
+      {% when "preprint" %}<span class="tag type-preprint">Preprint</span>
+      {% when "review" %}<span class="tag type-review">Review</span>
+      {% when "book-chapter" %}<span class="tag type-book-chapter">Book Chapter</span>
+      {% when "patent" %}<span class="tag type-patent">Patent</span>
+      {% else %}{% if include.pub.type %}<span class="tag">{{ include.pub.type }}</span>{% endif %}
+      {% endcase %}
+      {% if include.pub.tags %}{% for tag in include.pub.tags %}<span class="tag">{{ tag }}</span>{% endfor %}{% endif %}
     </div>
-    {% endif %}
   </div>
 </div>

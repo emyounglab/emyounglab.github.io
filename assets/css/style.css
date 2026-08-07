@@ -256,6 +256,13 @@ a:hover{color:var(--navy)}
   transform:rotate(-1deg);
 }
 
+/* Publication type badges — color-coded by type */
+.tag.type-journal{border-color:var(--blue); color:var(--blue);}
+.tag.type-preprint{border-color:var(--orange); color:var(--orange);}
+.tag.type-review{border-color:var(--green); color:var(--green);}
+.tag.type-book-chapter{border-color:var(--navy); color:var(--navy);}
+.tag.type-patent{border-color:var(--muted); color:var(--muted);}
+
 .clean-list{list-style:none; padding-left:0; margin:0;}
 .clean-list li{padding:10px 0; border-bottom:1px solid var(--line);}
 .news-item{padding:12px 0;}
