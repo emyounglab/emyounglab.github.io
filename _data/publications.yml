@@ -11,6 +11,15 @@
   doi: "10.1007/978-1-0716-5320-3_19"
   url: "https://doi.org/10.1007/978-1-0716-5320-3_19"
 
+- year: 2026
+  type: book-chapter
+  title: "Synthetic Biology: An Overview"
+  authors: "Z. Li, N.M. Petersen, E.M. Young"
+  editor: "S.-M. Lee, H. Alper"
+  venue: "Reference Module in Life Sciences (Elsevier)"
+  doi: "10.1016/B978-0-443-24738-5.00099-9"
+  url: "https://doi.org/10.1016/B978-0-443-24738-5.00099-9"
+
 - year: 2025
   type: preprint
   title: "Combinatorial metabolic engineering of alkane biosynthesis in the osmotolerant yeast <i>Debaryomyces hansenii</i> CBS 767"
@@ -312,12 +321,3 @@
   owner: "RTX BBN Technologies, Inc. / Worcester Polytechnic Institute"
   number: "U.S. Patent #12,571,789"
   url: "https://patentsgazette.uspto.gov/week10/OG/html/1544-2/US12571789-20260310.html"
-  
-- year: 2026
-  type: book-chapter
-  title: "Automated Genetic Engineering in the Laboratory"
-  authors: "Z. Li, E.M. Young"
-  editor: "R. Dempski"
-  venue: "Transforming Molecular Biology with Emerging Technologies"
-  doi: "10.1007/978-1-0716-5320-3"
-  url: "https://doi.org/10.1007/978-1-0716-5320-3"
