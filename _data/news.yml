@@ -1,3 +1,21 @@
+- date: "2026-08-01"
+  title: "Alexandria Adams defends her dissertation"
+  text: "Congratulations to Dr. Alexandria Adams on defending her PhD dissertation."
+
+- date: "2026-08-01"
+  title: "Zekun Li defends his dissertation"
+  text: "Congratulations to Dr. Zekun Li on defending his PhD dissertation."
+
+- date: "2026-08-01"
+  title: "New paper: engineering Taxus for paclitaxel overproduction"
+  text: "With the Roberts lab, metabolic engineering of Taxus chinensis suspension cell lines for overproduction of paclitaxel, published in Metabolic Engineering."
+  url: "https://doi.org/10.1016/j.ymben.2026.102524"
+
+- date: "2026-03-10"
+  title: "Patent awarded: Microbial Subsurface Soil Sensors"
+  text: "US Patent 12,571,789 B1 was issued with RTX BBN Technologies, covering the fungal-bacterial system that relays a detection signal to the surface."
+  url: "https://patentsgazette.uspto.gov/week10/OG/html/1544-2/US12571789-20260310.html"
+
 - date: "2026-02-01"
   title: "Young Lab website launched"
   text: "We've launched our new lab website on GitHub Pages. Find out about our research, people, and publications."

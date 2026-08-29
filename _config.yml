@@ -7,11 +7,6 @@ markdown: kramdown
 permalink: pretty
 future: true
 
-collections:
-  projects:
-    output: true
-    permalink: /projects/:name/
-
 # GitHub Pages safe default (no custom plugins)
 plugins: []
 

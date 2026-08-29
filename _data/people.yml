@@ -40,10 +40,6 @@ postdocs:
     interests: "fungal highways, nonconventional yeast onboarding"
 
 students:
-  - name: "Alexandria Adams"
-    role: "PhD Student"
-    interests: "synthetic biology part collections, metabolic engineering, part transferability"
-    
   - name: "Zoe Horton"
     role: "PhD Student"
     interests: "incorporating cell engineering into cell culture"
@@ -90,6 +86,10 @@ alumni:
     
   - name: "Dr. Zekun Li"
     role: "PhD"
+    
+  - name: "Dr. Alexandria Adams"
+    role: "PhD"
+    current: "Postdoc, University of Delaware"
     
   - name: "Ruiyi Wang"
     role: "MS Student"

@@ -3,6 +3,16 @@
 # Types:  preprint | journal | review | book-chapter | patent
 
 - year: 2026
+  type: journal
+  title: "Metabolic engineering of <i>Taxus chinensis</i> suspension cell lines for overproduction of paclitaxel reveals insights into pathway regulation"
+  authors: "C. Newton, M.C. McKee, A.M. Harrison, L.D. Revene, T. Fiore, A.M. Sassano, E.M. Young, S.C. Roberts"
+  venue: "Metabolic Engineering"
+  doi: "10.1016/j.ymben.2026.102524"
+  url: "https://doi.org/10.1016/j.ymben.2026.102524"
+  areas: [metabolic-engineering]
+  context: [collaboration]
+
+- year: 2026
   type: book-chapter
   title: "Automated Genetic Engineering in the Laboratory"
   authors: "Z. Li, E.M. Young"
@@ -10,6 +20,7 @@
   venue: "Transforming Molecular Biology with Emerging Technologies (Methods in Molecular Biology, vol. 3043, Humana, New York)"
   doi: "10.1007/978-1-0716-5320-3_19"
   url: "https://doi.org/10.1007/978-1-0716-5320-3_19"
+  areas: [biofoundries]
 
 - year: 2026
   type: book-chapter
@@ -27,7 +38,7 @@
   venue: "bioRxiv"
   doi: "10.1101/2025.10.23.684212"
   url: "https://doi.org/10.1101/2025.10.23.684212"
-  projects: [debaryomyces-hansenii]
+  areas: [metabolic-engineering, onboarding]
 
 - year: 2025
   type: journal
@@ -36,7 +47,7 @@
   venue: "Biotechnology and Bioengineering"
   doi: "10.1002/bit.28891"
   url: "https://doi.org/10.1002/bit.28891"
-  projects: [debaryomyces-hansenii]
+  areas: [onboarding, biofoundries]
 
 - year: 2024
   type: journal
@@ -47,7 +58,7 @@
   url: "https://doi.org/10.1007/s00253-024-13379-w"
   attr: "<i>*= equal contribution</i>"
   preprint_url: "https://www.biorxiv.org/content/10.1101/2023.07.31.551333v1"
-  projects: [xanthophyllomyces-dendrorhous]
+  areas: [onboarding, biofoundries]
 
 - year: 2024
   type: review
@@ -66,6 +77,8 @@
   doi: "10.1128/iai.00103-24"
   url: "https://doi.org/10.1128/iai.00103-24"
   preprint_url: "https://www.biorxiv.org/content/10.1101/2023.04.07.536049v1"
+  areas: [biofoundries]
+  context: [collaboration]
 
 - year: 2024
   type: journal
@@ -74,6 +87,8 @@
   venue: "ACS Synthetic Biology"
   doi: "10.1021/acssynbio.3c00398"
   url: "https://doi.org/10.1021/acssynbio.3c00398"
+  areas: [biofoundries]
+  context: [collaboration]
 
 - year: 2023
   type: journal
@@ -82,6 +97,8 @@
   venue: "ACS Synthetic Biology"
   doi: "10.1021/acssynbio.3c00363"
   url: "https://doi.org/10.1021/acssynbio.3c00363"
+  areas: [metabolic-engineering, biofoundries]
+  context: [collaboration]
 
 - year: 2023
   type: journal
@@ -90,14 +107,17 @@
   venue: "Microbiology Resource Announcements"
   doi: "10.1128/MRA.00397-23"
   url: "https://doi.org/10.1128/MRA.00397-23"
+  areas: [onboarding]
 
 - year: 2023
   type: journal
   title: "Targeted control of supporting pathways in paclitaxel biosynthesis with CRISPR-guided methylation"
-  authors: "C. Brzycki Newton, E.M. Young, S.C. Roberts"
+  authors: "C. Newton, E.M. Young, S.C. Roberts"
   venue: "Frontiers in Bioengineering and Biotechnology"
   doi: "10.3389/fbioe.2023.1272811"
   url: "https://doi.org/10.3389/fbioe.2023.1272811"
+  areas: [metabolic-engineering]
+  context: [collaboration]
 
 - year: 2023
   type: journal
@@ -106,6 +126,7 @@
   venue: "Microbiology Resource Announcements"
   doi: "10.1128/MRA.00611-22"
   url: "https://doi.org/10.1128/MRA.00611-22"
+  areas: [onboarding]
 
 - year: 2023
   type: preprint
@@ -114,6 +135,7 @@
   venue: "bioRxiv"
   doi: "10.1101/2023.08.21.554206"
   url: "https://doi.org/10.1101/2023.08.21.554206"
+  areas: [onboarding]
 
 - year: 2023
   type: journal
@@ -122,6 +144,8 @@
   venue: "G3: Genes, Genomes, Genetics"
   doi: "10.1093/g3journal/jkad093"
   url: "https://doi.org/10.1093/g3journal/jkad093"
+  areas: [onboarding, biofoundries]
+  context: [collaboration]
 
 - year: 2023
   type: journal
@@ -131,6 +155,7 @@
   doi: "10.1021/acssynbio.3c00104"
   url: "https://doi.org/10.1021/acssynbio.3c00104"
   preprint_url: "https://www.biorxiv.org/content/10.1101/2023.02.07.527528v1"
+  areas: [onboarding]
 
 - year: 2023
   type: journal
@@ -139,6 +164,7 @@
   venue: "Biomaterials Advances"
   doi: "10.1016/j.bioadv.2023.213345"
   url: "https://doi.org/10.1016/j.bioadv.2023.213345"
+  areas: [metabolic-engineering]
 
 - year: 2022
   type: journal
@@ -147,6 +173,8 @@
   venue: "Synthetic Biology"
   doi: "10.1093/synbio/ysac010"
   url: "https://doi.org/10.1093/synbio/ysac010"
+  areas: [circuits]
+  context: [collaboration]
 
 - year: 2022
   type: journal
@@ -155,6 +183,8 @@
   venue: "ACS Synthetic Biology"
   doi: "10.1021/acssynbio.1c00611"
   url: "https://doi.org/10.1021/acssynbio.1c00611"
+  areas: [biofoundries]
+  context: [collaboration]
 
 - year: 2021
   type: journal
@@ -163,6 +193,8 @@
   venue: "ACS Synthetic Biology"
   doi: "10.1021/acssynbio.1c00225"
   url: "https://doi.org/10.1021/acssynbio.1c00225"
+  areas: [biofoundries]
+  context: [collaboration]
 
 - year: 2021
   type: journal
@@ -171,6 +203,8 @@
   venue: "ACS Synthetic Biology"
   doi: "10.1021/acssynbio.1c00188"
   url: "https://doi.org/10.1021/acssynbio.1c00188"
+  areas: [biofoundries]
+  context: [collaboration]
 
 - year: 2021
   type: journal
@@ -180,16 +214,18 @@
   doi: "10.1038/s41467-021-21656-9"
   url: "https://doi.org/10.1038/s41467-021-21656-9"
   preprint_url: "https://www.biorxiv.org/content/10.1101/2020.05.05.079368v1"
-  projects: [prymetime]
+  areas: [biofoundries]
 
 - year: 2021
   type: book-chapter
   title: "Secondary metabolite production in plant cell culture: a new epigenetic frontier"
-  authors: "C.M. Brzycki, E.M. Young, S.C. Roberts"
+  authors: "C. Newton, E.M. Young, S.C. Roberts"
   editor: "S. Malik"
   venue: "Exploring Plant Cells for the Production of Compounds of Interest (Springer)"
   doi: "10.1007/978-3-030-58271-5_1"
   url: "https://doi.org/10.1007/978-3-030-58271-5_1"
+  areas: [metabolic-engineering]
+  context: [collaboration]
 
 - year: 2020
   type: journal
@@ -198,6 +234,7 @@
   venue: "Nature Microbiology"
   doi: "10.1038/s41564-020-0757-2"
   url: "https://doi.org/10.1038/s41564-020-0757-2"
+  context: [training]
 
 - year: 2019
   type: review
@@ -214,7 +251,7 @@
   venue: "Current Opinion in Biotechnology"
   doi: "10.1016/j.copbio.2018.02.001"
   url: "https://doi.org/10.1016/j.copbio.2018.02.001"
-  
+
 - year: 2018
   type: journal
   title: "Iterative algorithm-guided design of massive strain libraries, applied to itaconic acid production in yeast"
@@ -222,7 +259,8 @@
   venue: "Metabolic Engineering"
   doi: "10.1016/j.ymben.2018.05.002"
   url: "https://doi.org/10.1016/j.ymben.2018.05.002"
-  
+  context: [training]
+
 - year: 2018
   type: journal
   title: "A pressure test to make 10 molecules in 90 days: External evaluation of methods to engineer biology​"
@@ -231,7 +269,8 @@
   attr: "<i>* = Equal contribution</i>"
   doi: "10.1021/jacs.7b13292"
   url: "https://pubs.acs.org/doi/10.1021/jacs.7b13292"
-  
+  context: [training]
+
 - year: 2017
   type: journal
   title: "Formation of nitrogenase nifDK tetramers in the mitochondria of <i>Saccharomyces cerevisiae</i>"
@@ -239,13 +278,15 @@
   venue: "ACS Synthetic Biology"
   doi: "10.1021/acssynbio.6b00371"
   url:  "https://pubs.acs.org/doi/full/10.1021/acssynbio.6b00371"
+  context: [training]
 
 - year: 2016
   type: journal
   title: "DoubleDutch: a tool for designing combinatorial libraries of metabolic pathway variants"
   authors: "N. Roehner, E.M. Young, C.A. Voigt, D.B. Gordon, and D. Densmore"
   venue: "​ACS Synthetic Biology"
-  
+  context: [training]
+
 - year: 2015
   type: book-chapter
   title: "Remaining challenges in the metabolic engineering of yeasts for biofuels"
@@ -255,6 +296,7 @@
   chapter: "12"
   ISBN: "9780444595928"
   url: "https://www.sciencedirect.com/science/chapter/edited-volume/abs/pii/B9780444595928000129?via%3Dihub"
+  context: [training]
 
 - year: 2014
   type: journal
@@ -263,7 +305,8 @@
   venue: "Proceedings of the National Academies of Science of the United States of America"
   doi: "10.1073/pnas.1311970111"
   url: "https://www.pnas.org/doi/full/10.1073/pnas.1311970111"
-  
+  context: [training]
+
 - year: 2012
   type: journal
   title: "A molecular transporter engineering approach to improving xylose catabolism in <i>Saccharomyces cerevisiae</i>"
@@ -271,7 +314,8 @@
   venue: "Metabolic Engineering"
   doi: "10.1016/j.ymben.2012.03.004"
   url: "https://doi.org/10.1016/j.ymben.2012.03.004"
-  
+  context: [training]
+
 - year: 2011
   type: journal
   title: "Functional survey for heterologous sugar transport proteins, using <i>Saccharomyces cerevisiae</i> as a host"
@@ -279,6 +323,7 @@
   venue: "Applied and Environmental Microbiology"
   doi: "10.1128/AEM.02651-10"
   url: "https://doi.org/10.1128/AEM.02651-10"
+  context: [training]
 
 - year: 2010
   type: review
@@ -287,6 +332,7 @@
   venue: "Journal of Biomedicine and Biotechnology"
   doi: "10.1155/2010/130781"
   url: "https://doi.org/10.1155/2010/130781"
+  context: [training]
 
 - year: 2010
   type: review
@@ -295,7 +341,8 @@
   venue: "​Biotechnology for Biofuels"
   doi: "10.1186/1754-6834-3-24"
   url: "https://link.springer.com/article/10.1186/1754-6834-3-24"
-  
+  context: [training]
+
 - year: 2015
   type: patent
   title: "Methods for Engineering Sugar Transporter Preferences"
@@ -304,7 +351,8 @@
   number: "U.S. Patent #9,926,347"
   world: "WO2015069796"
   url: "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2015069796"
-  
+  context: [training]
+
 - year: 2015
   type: patent
   title: "Engineered Xylose Transporters with Reduced Glucose Inhibition"
@@ -313,6 +361,7 @@
   number: "U.S. Patent #9,695,223"
   world: "WO2015179701"
   url: "https://patentscope.wipo.int/search/en/detail.jsf;jsessionid=D776144AD70E69CB2D84EE998C9F9EFC.wapp1nC?docId=WO2015179701&recNum=10&office=&queryString=&prevFilter=%26fq%3DOF%3AWO%26fq%3DICF_M%3A%22A61K%22%26fq%3DPAF_M%3A%22BOARD+OF+REGENTS%2C+THE+UNIVERSITY+OF+TEXAS+SYSTEM%22&sortOption=Pub+Date+Desc&maxRec=518"
+  context: [training]
 
 - year: 2026
   type: patent
@@ -321,3 +370,5 @@
   owner: "RTX BBN Technologies, Inc. / Worcester Polytechnic Institute"
   number: "U.S. Patent #12,571,789"
   url: "https://patentsgazette.uspto.gov/week10/OG/html/1544-2/US12571789-20260310.html"
+  areas: [circuits]
+  context: [collaboration]

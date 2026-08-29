@@ -287,7 +287,6 @@ a:hover{color:var(--navy)}
   color:var(--bg);
 }
 .research-group-label{background:var(--orange); color:var(--bg2); border-radius:0 10px 10px 0; margin-left:calc(-1 * var(--pad)); padding:8px 20px 8px var(--pad); margin-top:36px; margin-bottom:4px; width:fit-content;}
-.research-group-label:first-child{margin-top:0;}
 .research-section{
   border-left:4px solid var(--orange);
   padding:20px 24px;
@@ -295,16 +294,15 @@ a:hover{color:var(--navy)}
   background-color:var(--bg2);
   border-radius:0 12px 12px 0;
 }
-.research-section:first-child{margin-top:0;}
 .research-section h2{
   margin-top:0;
   color:var(--orange);
 }
 .project-links{list-style:none; padding:0; margin:12px 0 0;}
 .project-links li{margin:4px 0;}
-.project-links a{color:var(--orange); font-weight:500; text-decoration:none;}
+.project-links a{color:var(--navy); font-weight:500; text-decoration:none;}
 .project-links a::before{content:"→ "; font-size:0.85em;}
-.project-links a:hover{color:var(--navy); text-decoration:underline;}
+.project-links a:hover{color:var(--orange); text-decoration:underline;}
 .back-link{display:inline-block; color:var(--orange); font-size:0.9rem; text-decoration:none; margin-bottom:16px; font-weight:500;}
 .back-link:hover{color:var(--navy);}
 .project-title-main{margin-top:0; color:var(--navy);}
@@ -389,3 +387,105 @@ hr.palette-rule{
   .site-nav{ flex-wrap:wrap; padding:0 var(--pad); }
   .tab{ font-size:1rem; padding:6px 14px; border-radius:7px; }
 }
+
+/* ---- Research map: chips and arcs (research.md) ---- */
+/* Palette fixed 2026-08-25 on contrast grounds; see CLAUDE.md before changing. */
+.rmap{position:relative; margin:22px 0 8px; padding:24px 24px 20px; background:var(--navy); border-radius:12px;}
+.rmap-cap{font-family:'DM Serif Display',Georgia,serif; font-size:1.22rem; line-height:1.4; color:#fff;
+  margin:0 0 28px; max-width:62ch;}
+.rmap-arcs{position:absolute; inset:0; width:100%; height:100%; pointer-events:none; overflow:visible;}
+.rmap-edge{fill:none; stroke:rgba(255,255,255,.34); stroke-width:2; transition:stroke .18s, stroke-width .18s, opacity .18s;}
+.rmap-band{display:flex; flex-direction:column; align-items:flex-start; gap:9px; position:relative; z-index:1;}
+.rmap-band + .rmap-band{margin-top:78px;}
+.rmap-axis{color:#fff; font-weight:700; font-size:.74rem; letter-spacing:.14em; text-transform:uppercase; white-space:nowrap;}
+.rmap-row{display:flex; flex-wrap:wrap; gap:10px;}
+.rmap-chip{display:inline-block; padding:7px 14px; border-radius:999px; font-size:.86rem; font-weight:500;
+  text-decoration:none; color:#fff; background:var(--orange); border:2px solid transparent;
+  transition:opacity .18s, transform .18s;}
+.rmap-chip-app{background:var(--bg2); color:var(--navy);}
+.rmap-chip:hover,.rmap-chip:focus-visible{transform:translateY(-1px);}
+.rmap-chip:focus-visible{outline:none; border-color:#fff;}
+/* a navy border would vanish into the navy panel, so the app chips ring outside */
+.rmap-chip-app:focus-visible{border-color:transparent; outline:2px solid var(--orange); outline-offset:2px;}
+.rmap.is-active .rmap-chip{opacity:.22;}
+.rmap.is-active .rmap-chip.is-on{opacity:1;}
+.rmap.is-active .rmap-edge{opacity:.12;}
+.rmap.is-active .rmap-edge.is-on{opacity:1; stroke:var(--orange); stroke-width:3;}
+
+/* resources row: outlined, so it reads as "go get this" not as a diagram node */
+.rmap-resources{position:relative; z-index:1; margin-top:34px; padding-top:20px;
+  border-top:1px solid rgba(255,255,255,.18); display:flex; flex-direction:column; align-items:flex-start; gap:9px;}
+.rmap-link{display:inline-block; padding:6px 13px; border-radius:999px; font-size:.83rem; font-weight:500;
+  color:#fff; text-decoration:none; border:1.5px solid rgba(255,255,255,.55); transition:background .18s, border-color .18s;}
+.rmap-link:hover,.rmap-link:focus-visible{background:#fff; color:var(--navy); border-color:#fff; outline:none;}
+/* not yet deposited: dashed reads "not solid yet", the tag says why */
+.rmap-link.is-soon{border-style:dashed; border-color:rgba(255,255,255,.4); cursor:default;}
+.rmap-link.is-soon .soon-tag{font-size:.72rem; font-weight:700; letter-spacing:.09em;
+  text-transform:uppercase; color:var(--bg2); opacity:.75; margin-left:6px;}
+.rmap.is-active .rmap-resources{opacity:.35;}
+
+.rmap-funding{color:#fff; font-size:.86rem; margin:0;}
+.rmap-funding a{color:#fff; text-decoration:underline;}
+.rmap-note{font-size:.8rem; color:rgba(255,255,255,.55); margin:20px 0 0;}
+@media (max-width:900px){
+  .rmap-band + .rmap-band{margin-top:26px;}
+  .rmap-arcs{display:none;}
+  /* the note promises hover-to-connect; the arcs it refers to are gone here */
+  .rmap-note{display:none;}
+  .rmap-cap{font-size:1.08rem; margin-bottom:20px;}
+}
+@media (prefers-reduced-motion:reduce){
+  .rmap-chip,.rmap-edge,.rmap-link{transition:none;}
+  .rmap-chip:hover,.rmap-chip:focus-visible{transform:none;}
+}
+
+.tool-uses{list-style:none; padding:0; margin:10px 0 0;}
+.tool-uses li{margin:0 0 10px; padding-left:16px; border-left:3px solid var(--line); font-size:.95rem;}
+.tool-uses li:last-child{margin-bottom:0;}
+
+.reading-list{list-style:none; padding:0; margin:12px 0 0;}
+.reading-list li{margin:0 0 14px; padding-left:16px; border-left:3px solid var(--line); font-size:.95rem;}
+.reading-list li:last-child{margin-bottom:0;}
+.reading-list li{line-height:1.45;}
+.rl-meta{color:var(--muted); font-size:.85em; margin-left:4px;}
+
+.project-links .pending{font-style:italic; color:var(--navy); opacity:.7; font-size:.9em;}
+
+/* points at the Join tab, so it takes the Join colour */
+.research-join{margin:34px 0 0; font-size:.95rem;}
+.research-join a{color:var(--blue); font-weight:500;}
+
+/* ---- Collapsible research sections ---- */
+details.research-section{padding:0;}
+details.research-section > summary{list-style:none; cursor:pointer; padding:16px 24px; display:flex;
+  align-items:center; gap:12px; border-radius:0 12px 12px 0;}
+details.research-section > summary::-webkit-details-marker{display:none;}
+details.research-section > summary::after{content:"+"; margin-left:auto; color:var(--orange);
+  font-size:1.3rem; line-height:1; font-weight:700;}
+details.research-section[open] > summary::after{content:"\2212";}
+details.research-section > summary:hover{background:rgba(30,46,74,.045);}
+details.research-section > summary:hover h2{color:var(--navy);}
+details.research-section > summary:focus-visible{outline:2px solid var(--orange); outline-offset:-2px;}
+details.research-section > summary h2{margin:0; display:inline;}
+details.research-section > *:not(summary){margin-left:24px; margin-right:24px;}
+details.research-section > *:last-child{margin-bottom:20px;}
+/* the 24px sides match details.research-section > *:not(summary) */
+details.research-section h3{color:var(--navy); font-size:1.05rem; margin:20px 24px 4px;}
+.research-section a{color:var(--navy);}
+.rs-collab{font-size:.86rem; color:var(--muted); border-left:3px solid var(--line); padding-left:10px;}
+/* a review is commentary, not evidence: set it apart from the result sentences */
+.rs-review{font-size:.86rem; color:var(--muted); border-left:3px solid var(--line); padding-left:10px;}
+.rs-review a{color:var(--navy);}
+
+/* ---- Funding: current reads live, past reads as record ---- */
+.fund-now{list-style:none; padding:0; margin:10px 0 0; display:flex; flex-wrap:wrap; gap:10px;}
+.fund-now li{margin:0; padding:7px 15px; border-radius:999px; background:var(--navy);
+  color:var(--bg2); font-weight:500; font-size:.9rem;}
+.fund-now li a{color:var(--bg2); text-decoration:none;}
+.fund-now li:has(a):hover{background:var(--orange);}
+.fund-now li:has(a:focus-visible){background:var(--orange);}
+.fund-past{list-style:none; padding:0; margin:10px 0 0; border-left:3px solid var(--line);}
+.fund-past li{margin:0 0 6px; padding-left:14px; color:var(--muted); font-size:.92rem;}
+.fund-past b{color:var(--fg); font-weight:500;}
+.fund-note{font-size:.86rem; color:var(--muted); margin:8px 0 0; font-style:italic;}
+
