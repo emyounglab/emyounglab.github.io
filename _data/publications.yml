@@ -23,6 +23,16 @@
   context: [collaboration]
 
 - year: 2026
+  type: patent
+  title: "Microbial Subsurface Soil Sensors"
+  authors: "M. Rogers, A. Taggart, E.M. Young, N. Farny, N.K. Sharma, A.F.C. Rincón, J. Thompson"
+  owner: "RTX BBN Technologies, Inc. / Worcester Polytechnic Institute"
+  number: "U.S. Patent #12,571,789"
+  url: "https://patentsgazette.uspto.gov/week10/OG/html/1544-2/US12571789-20260310.html"
+  areas: [circuits]
+  context: [collaboration]
+
+- year: 2026
   type: book-chapter
   title: "Automated Genetic Engineering in the Laboratory"
   authors: "Z. Li, E.M. Young"
@@ -289,6 +299,26 @@
   context: [training]
 
 - year: 2015
+  type: patent
+  title: "Methods for Engineering Sugar Transporter Preferences"
+  authors: "H.S. Alper and E.M. Young"
+  owner: "Board of Regents, University of Texas System"
+  number: "U.S. Patent #9,926,347"
+  world: "WO2015069796"
+  url: "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2015069796"
+  context: [training]
+
+- year: 2015
+  type: patent
+  title: "Engineered Xylose Transporters with Reduced Glucose Inhibition"
+  authors: "H.S. Alper, S.-M. Lee, E.M. Young"
+  owner: "Board of Regents, University of Texas System"
+  number: "U.S. Patent #9,695,223"
+  world: "WO2015179701"
+  url: "https://patentscope.wipo.int/search/en/detail.jsf;jsessionid=D776144AD70E69CB2D84EE998C9F9EFC.wapp1nC?docId=WO2015179701&recNum=10&office=&queryString=&prevFilter=%26fq%3DOF%3AWO%26fq%3DICF_M%3A%22A61K%22%26fq%3DPAF_M%3A%22BOARD+OF+REGENTS%2C+THE+UNIVERSITY+OF+TEXAS+SYSTEM%22&sortOption=Pub+Date+Desc&maxRec=518"
+  context: [training]
+
+- year: 2015
   type: book-chapter
   title: "Remaining challenges in the metabolic engineering of yeasts for biofuels"
   authors: "S.-M. Lee, E.M. Young, and H.S. Alper"
@@ -343,33 +373,3 @@
   doi: "10.1186/1754-6834-3-24"
   url: "https://link.springer.com/article/10.1186/1754-6834-3-24"
   context: [training]
-
-- year: 2015
-  type: patent
-  title: "Methods for Engineering Sugar Transporter Preferences"
-  authors: "H.S. Alper and E.M. Young"
-  owner: "Board of Regents, University of Texas System"
-  number: "U.S. Patent #9,926,347"
-  world: "WO2015069796"
-  url: "https://patentscope.wipo.int/search/en/detail.jsf?docId=WO2015069796"
-  context: [training]
-
-- year: 2015
-  type: patent
-  title: "Engineered Xylose Transporters with Reduced Glucose Inhibition"
-  authors: "H.S. Alper, S.-M. Lee, E.M. Young"
-  owner: "Board of Regents, University of Texas System"
-  number: "U.S. Patent #9,695,223"
-  world: "WO2015179701"
-  url: "https://patentscope.wipo.int/search/en/detail.jsf;jsessionid=D776144AD70E69CB2D84EE998C9F9EFC.wapp1nC?docId=WO2015179701&recNum=10&office=&queryString=&prevFilter=%26fq%3DOF%3AWO%26fq%3DICF_M%3A%22A61K%22%26fq%3DPAF_M%3A%22BOARD+OF+REGENTS%2C+THE+UNIVERSITY+OF+TEXAS+SYSTEM%22&sortOption=Pub+Date+Desc&maxRec=518"
-  context: [training]
-
-- year: 2026
-  type: patent
-  title: "Microbial Subsurface Soil Sensors"
-  authors: "M. Rogers, A. Taggart, E.M. Young, N. Farny, N.K. Sharma, A.F.C. Rincón, J. Thompson"
-  owner: "RTX BBN Technologies, Inc. / Worcester Polytechnic Institute"
-  number: "U.S. Patent #12,571,789"
-  url: "https://patentsgazette.uspto.gov/week10/OG/html/1544-2/US12571789-20260310.html"
-  areas: [circuits]
-  context: [collaboration]
