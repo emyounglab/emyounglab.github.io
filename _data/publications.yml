@@ -4,6 +4,16 @@
 
 - year: 2026
   type: journal
+  title: "Combinatorial metabolic engineering of alkane biosynthesis in the osmotolerant yeast <i>Debaryomyces hansenii</i> CBS 767"
+  authors: "Z. Li, N.K. Sharma, S. Weintraub, E.M. Young"
+  venue: "Biotechnology and Bioengineering"
+  doi: "10.1002/bit.70350"
+  url: "https://doi.org/10.1002/bit.70350"
+  preprint_url: "https://www.biorxiv.org/content/10.1101/2025.10.23.684212v1"
+  areas: [metabolic-engineering, onboarding]
+
+- year: 2026
+  type: journal
   title: "Metabolic engineering of <i>Taxus chinensis</i> suspension cell lines for overproduction of paclitaxel reveals insights into pathway regulation"
   authors: "C. Newton, M.C. McKee, A.M. Harrison, L.D. Revene, T. Fiore, A.M. Sassano, E.M. Young, S.C. Roberts"
   venue: "Metabolic Engineering"
@@ -30,15 +40,6 @@
   venue: "Reference Module in Life Sciences (Elsevier)"
   doi: "10.1016/B978-0-443-24738-5.00099-9"
   url: "https://doi.org/10.1016/B978-0-443-24738-5.00099-9"
-
-- year: 2025
-  type: preprint
-  title: "Combinatorial metabolic engineering of alkane biosynthesis in the osmotolerant yeast <i>Debaryomyces hansenii</i> CBS 767"
-  authors: "Z. Li, N.K. Sharma, S. Weintraub, E.M. Young"
-  venue: "bioRxiv"
-  doi: "10.1101/2025.10.23.684212"
-  url: "https://doi.org/10.1101/2025.10.23.684212"
-  areas: [metabolic-engineering, onboarding]
 
 - year: 2025
   type: journal
